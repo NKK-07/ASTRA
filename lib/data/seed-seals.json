@@ -1,0 +1,83 @@
+{
+  "TR-2026-1118": {
+    "files": [
+      {
+        "name": "approved-trial-plan.txt",
+        "kind": "Trial plan",
+        "size": 309,
+        "sha256": "cfda43dd6b1fcb707c6f270c50247ddafd252bfb0ed3ffab85ee04e1b9db7ae8"
+      },
+      {
+        "name": "re102-radiated-emissions.csv",
+        "kind": "Instrument data",
+        "size": 198,
+        "sha256": "d1a3643cfc3c040ad8e82ebf8010cfdb41e66df55b609d003f01ca46092e8118"
+      },
+      {
+        "name": "test-report-final.txt",
+        "kind": "Report",
+        "size": 259,
+        "sha256": "b8ee36be3a568938f41b359661d637962234c7de7c0e158b8417b6d7ea59e6d3"
+      }
+    ],
+    "signoffs": [
+      {
+        "role": "Range officer, DTIS Kanpur",
+        "name": "Vikram Singh",
+        "at": "2026-10-20T16:40:00+05:30"
+      },
+      {
+        "role": "Observer, user Service",
+        "name": "Maj. K. Bhatt",
+        "at": "2026-10-20T16:52:00+05:30"
+      },
+      {
+        "role": "Firm test lead",
+        "name": "Ananya Rao",
+        "at": "2026-10-20T17:05:00+05:30"
+      }
+    ],
+    "seal": {
+      "digest": "485d6ef88a0d02d29c37f7a214fef281f87339aab21b9480e83fcf82aba240da",
+      "signature": "IYFunp8yFSIYzsCTDmtcJYhx5Zwxp7HllU3HlJrzyJh+k2u6XCQJK4W9uq5S4HsoYmY8uEJYcCa+gpr5/h9vBQ==",
+      "publicKey": "h/+2LQNpbf4YzYyZj5DFLJzWde8V+sSnPcmdJNWbT0c=",
+      "keyId": "3920499a37c7",
+      "signedAt": "2026-10-20T17:05:00+05:30"
+    }
+  },
+  "TR-2026-1087": {
+    "files": [
+      {
+        "name": "radio-env-test-plan.txt",
+        "kind": "Trial plan",
+        "size": 182,
+        "sha256": "62942431608e5ae4fb76a11082566f2722837eaa1db104915e9dafe12e40eb6c"
+      },
+      {
+        "name": "radio-thermal-cycling.csv",
+        "kind": "Instrument data",
+        "size": 95,
+        "sha256": "bbd6e2d03f2cfa1ed3ac382f73e89e8ccda606a5dac555455e5a0852416f361e"
+      }
+    ],
+    "signoffs": [
+      {
+        "role": "Range officer, DTIS Chennai",
+        "name": "R. Prakash",
+        "at": "2026-10-12T15:10:00+05:30"
+      },
+      {
+        "role": "Firm test lead",
+        "name": "S. Kulkarni",
+        "at": "2026-10-12T15:30:00+05:30"
+      }
+    ],
+    "seal": {
+      "digest": "ce2441d650d90f1a36f89206432164f84bad5a2fcdf6e5a59a86384e243533bc",
+      "signature": "8cEfYHYiWcZvrwzBx7o2WljWxTvh2CDt3JlIAze1C81i0+sCXyGE/k5jXO2iTUB/5FojvoOQ8sLQmjUEJ77vDQ==",
+      "publicKey": "h/+2LQNpbf4YzYyZj5DFLJzWde8V+sSnPcmdJNWbT0c=",
+      "keyId": "3920499a37c7",
+      "signedAt": "2026-10-12T15:30:00+05:30"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "astratest-bharat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AstraTest Bharat: one front door to India's defence test ranges, from prototype to procurement.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "seed:seal": "node scripts/seal-seed.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-devanagari": "5.1.0",
+    "geist": "1.3.1",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "server-only": "^0.0.1",
+    "zustand": "4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.16.11",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3",
+    "vitest": "2.1.3"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}

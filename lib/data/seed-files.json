@@ -1,0 +1,31 @@
+{
+  "TR-2026-1118": [
+    {
+      "name": "approved-trial-plan.txt",
+      "kind": "Trial plan",
+      "content": "AstraTest Bharat demo file\nTrial plan TR-2026-1118 (approved)\nItem: Swarm-ISR payload v2 (SkyVeer Drones, iDEX)\nFacility: DTIS UAS Test Facility, Kanpur\nTests: RE102 radiated emissions, CS114 conducted susceptibility (MIL-STD-461G)\nApproved by: Range officer, DTIS Kanpur, 15 Oct 2026\nUnclassified demo data.\n"
+    },
+    {
+      "name": "re102-radiated-emissions.csv",
+      "kind": "Instrument data",
+      "content": "freq_mhz,limit_dbuv_m,measured_dbuv_m,margin_db\n2,54.0,38.2,15.8\n10,44.0,31.7,12.3\n30,44.0,33.9,10.1\n100,44.0,36.4,7.6\n300,46.5,39.0,7.5\n1000,54.0,41.8,12.2\n6000,69.0,49.5,19.5\n18000,69.0,52.1,16.9\n"
+    },
+    {
+      "name": "test-report-final.txt",
+      "kind": "Report",
+      "content": "AstraTest Bharat demo file\nTest report TR-2026-1118\nResult: PASS. RE102 and CS114 within MIL-STD-461G limits, minimum margin 7.5 dB at 300 MHz.\nSigned: Range officer DTIS Kanpur; Observer, user Service; SkyVeer test lead. 20 Oct 2026.\nUnclassified demo data.\n"
+    }
+  ],
+  "TR-2026-1087": [
+    {
+      "name": "radio-env-test-plan.txt",
+      "kind": "Trial plan",
+      "content": "AstraTest Bharat demo file\nTrial plan TR-2026-1087\nItem: Rugged tactical radio (Vajra Comms, Make-II)\nTests: vibration and thermal cycling, JSS 55555 Class A\nUnclassified demo data.\n"
+    },
+    {
+      "name": "radio-thermal-cycling.csv",
+      "kind": "Instrument data",
+      "content": "cycle,low_c,high_c,functional\n1,-40,70,yes\n2,-40,70,yes\n3,-40,70,yes\n4,-40,70,yes\n5,-40,70,yes\n"
+    }
+  ]
+}
